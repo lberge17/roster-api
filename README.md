@@ -29,7 +29,7 @@ bundle add [gem name]
 
 ### Gems - Rack API
 - rack (for http requests)
-- rack cors (for enabling cross-origin resource sharing)
+- rack-cors (for enabling cross-origin resource sharing)
 - shotgun (alternative to using rackup command so you don't have to restart server every time you make a change)
 
 ## Setting up Environment File
