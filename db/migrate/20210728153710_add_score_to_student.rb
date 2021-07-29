@@ -7,5 +7,3 @@ class AddScoreToStudent < ActiveRecord::Migration[6.1]
     remove_column :students, :score
   end
 end
-
-AddScoreToStudent.new.down
