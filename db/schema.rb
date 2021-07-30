@@ -14,10 +14,10 @@ ActiveRecord::Schema.define(version: 2021_07_28_153710) do
 
   create_table "notes", force: :cascade do |t|
     t.text "content"
-    t.integer "student_id_id"
+    t.integer "student_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["student_id_id"], name: "index_notes_on_student_id_id"
+    t.index ["student_id"], name: "index_notes_on_student_id"
   end
 
   create_table "rosters", force: :cascade do |t|

@@ -15,3 +15,9 @@ gem "activerecord", "~> 6.1"
 gem "sinatra-activerecord", "~> 2.0"
 
 gem "sqlite3", "~> 1.4"
+
+gem "rack", "~> 2.2"
+
+gem "rack-cors", "~> 1.1"
+
+gem "shotgun", "~> 0.9.2"
